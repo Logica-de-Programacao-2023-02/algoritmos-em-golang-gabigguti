@@ -39,7 +39,9 @@ func main() {
 			break
 		} else {
 			fmt.Println("A média é: ", resul)
+			break
 		}
 	}
 
 }
+
