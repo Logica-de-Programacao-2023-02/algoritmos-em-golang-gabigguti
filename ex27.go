@@ -6,11 +6,11 @@ func main() {
 
 	for i := 0; i <= 100; i++ {
 		if i%5 == 0 && i%3 == 0 {
-			fmt.Print("FizzBuzz")
+			fmt.Println("FizzBuzz")
 		} else if i%5 == 0 {
-			fmt.Print("Buzz")
+			fmt.Println("Buzz")
 		} else if i%3 == 0 {
-			fmt.Print("Fizz")
+			fmt.Println("Fizz")
 		} else {
 			fmt.Println(i)
 		}
